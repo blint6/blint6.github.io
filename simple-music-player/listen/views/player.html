@@ -1,0 +1,49 @@
+<header class="header">
+    <div ng-controller="PlayerCtrl" class="overhide txtcen bg-wht pt-5 pr1 pl1 borbo bor-ltgry">
+        <h1 ng-hide="player.tracks" class="massive">Listen!</h1>
+
+        <!-- <p>Listen</p> -->
+        <h1 ng-show="player.tracks" class="reg truncate" ng-cloak>{{player.playing.title}}</h1>
+
+        <div class="txtcen overhide">
+            <div class="overhide dib wi-auto">
+                <a href="" ng-click="previous()" class="fl lh4 pl1 pr1 mr2 maxhi4 txtcen link-dark no-tap-highlight">
+                    <i class="icon icon-previous db"></i>
+                </a>
+                <a href="" ng-click="play()" class="fl sq4 lh4 txtcen link-dark no-tap-highlight" ng-show="isPaused()">
+                    <i class="icon icon-play h3 lh4 db anim-pop-in"></i>
+                </a>
+                <a href="" ng-click="pause()" class="fl sq4 lh4 txtcen link-dark no-tap-highlight" ng-hide="isPaused()">
+                    <i class="icon icon-pause h3 lh4 db anim-pop-in"></i>
+                </a>
+                <a href="" ng-click="next()" class="fl lh4 pl1 pr1 ml2 maxhi4 txtcen link-dark no-tap-highlight">
+                    <i class="icon icon-skip db"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="posrel maxwi3 minhi3 wrap hide-short" ng-controller="ScrubberCtrl">
+            <div class="posabs top0 right0 bottom0 left0 mb2 bg-ltgry"></div>
+            <div class="posabs top0 bottom0 left0 mb2 bg-ltgry" style="width: {{currentBufferPercentage}}%"></div>
+            <div class="posabs top0 bottom0 left0 mb2 bg-mdgry" style="width: {{currentTimePercentage}}%"></div>
+            <div class="posabs fill z2 no-tap-highlight" ng-click="seekTo($event)"></div>
+            <div class="posabs left0 bottom0 pb-5 small mdgry">{{currentTimeMS | playTime}}</div>
+            <div class="posabs right0 bottom0 pb-5 small mdgry">{{durationMS | playTime}}</div>
+        </div>
+    </div>
+
+    <footer ng-controller="NavigationCtrl" class="menu">
+        <ul class="dib">
+            <li class="dib">
+                <a ui-sref="listen.home">Home</a>
+            </li>
+            <li class="dib" ng-repeat="(kind, kindData) in kinds">
+                <a ui-sref="listen.kind({ kind: kind })">{{kindData.name}}</a>
+            </li>
+            <li class="dib">
+                <a ui-sref="about">About</a>
+            </li>
+            <!-- <a class="icon1" href="http://facebook.com/">A</a> -->
+        </ul>
+    </footer>
+</header>

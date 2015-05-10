@@ -1,0 +1,420 @@
+[
+
+{
+    "kind": "drone",
+    "id": "",
+    "created_at": "2014/02/24",
+    "permalink": "Always-leave",
+    "title": "Francis Harris - You Can Always Leave",
+    "description": "",
+    "uri": "",
+    "permalink_url": "",
+    "artwork_url": "http://www.residentadvisor.net/dj/francisharris",
+    "waveform_url": "",
+    "stream_url": "http://edouardalvard.com/Musique/You-Can-Always-Leave.wav",
+    "download_url": "",
+    "attachments_uri": "Brume",
+    "auteur_url": ""
+  },
+
+{
+    "kind": "house",
+    "id": "",
+    "created_at": "2014/02/24",
+    "permalink": "Enfance",
+    "title": "Valentin Stip - Regards sur l'enfance (I et II)",
+    "description": "",
+    "uri": "",
+    "permalink_url": "",
+    "artwork_url": "http://www.residentadvisor.net/dj/valentinstip",
+    "waveform_url": "",
+    "stream_url": "http://edouardalvard.com/Musique/Regards-sur-l-enfance-(I-et-II).wav",
+    "download_url": "",
+    "attachments_uri": "Brume",
+    "auteur_url": ""
+  },
+
+{
+    "kind": "house",
+    "id": "",
+    "created_at": "2014/01/25",
+    "permalink": "Vejopatis",
+    "title": "Vejopatis - Apejo Sauliute",
+    "description": "",
+    "uri": "",
+    "permalink_url": "",
+    "artwork_url": "",
+    "waveform_url": "",
+    "stream_url": "http://edouardalvard.com/Musique/Apejo-Sauliute.wav",
+    "download_url": "",
+    "attachments_uri": "Brume",
+    "auteur_url": ""
+  },
+
+
+{
+    "kind": "techno",
+    "id": "",
+    "created_at": "2014/01/25",
+    "permalink": "Thomas-Brinkmann",
+    "title": "Thomas Brinkmann - Blackhill",
+    "description": "",
+    "uri": "",
+    "permalink_url": "",
+    "artwork_url": "http://www.residentadvisor.net/dj/thomasbrinkmann",
+    "waveform_url": "",
+    "stream_url": "http://edouardalvard.com/Musique/Blackhill.wav",
+    "download_url": "",
+    "attachments_uri": "Brume"
+  },
+
+{
+    "kind": "ambient",
+    "id": "130653900",
+    "created_at": "2014/01/25",
+    "permalink": "David-Meiser",
+   "title": "David Meiser - Walking Through",
+    "description": "",
+    "uri": "https://api.soundcloud.com/tracks/130653900",
+    "permalink_url": "https://soundcloud.com/davidmeiser/david-meiser-walking-through",
+    "artwork_url": "http://www.residentadvisor.net/dj/davidmeiser",
+    "waveform_url": "https://soundcloud.com/davidmeiser/david-meiser-walking-through",
+    "stream_url": "https://api.soundcloud.com/tracks/130653900/stream",
+    "download_url": "",
+    "attachments_uri": "Brume"
+
+  },
+
+
+{
+    "kind": "ambient",
+    "id": "",
+    "created_at": "2014/01/25",
+    "permalink": "Colo",
+    "title": "Colo - Holidays (Christian Löffler Remix)",
+    "description": "",
+    "uri": "",
+    "permalink_url": "",
+    "artwork_url": "http://www.residentadvisor.net/dj/christianloffler",
+    "waveform_url": "",
+    "stream_url": "http://edouardalvard.com/Musique/Holidays-(Christian-Loffler-Remix).m4a",
+    "download_url": "",
+    "attachments_uri": "Brume"
+  },
+
+{
+    "kind": "ambient",
+    "id": "",
+    "created_at": "2014/01/25",
+    "permalink": "Herbert",
+    "title": "Herbert - I Hadn't Known (I Only Heard)",
+    "description": "",
+    "uri": "",
+    "permalink_url": "",
+    "artwork_url": "http://www.residentadvisor.net/dj/matthewherbert",
+    "waveform_url": "",
+    "stream_url": "http://edouardalvard.com/Musique/I-Hadn't-Known-(I-Only-Heard).m4a",
+    "download_url": "",
+    "attachments_uri": "Brume"
+  },
+
+{
+    "kind": "track",
+    "id": "121799870",
+    "created_at": "2014/01/2",
+    "permalink": "Lucy-201",
+   "title": "Lucy - 201 Phasing (Original Mix)",
+    "description": "",
+    "uri": "https://api.soundcloud.com/tracks/121799870",
+    "permalink_url": "https://soundcloud.com/lucy/lucy-201-phasing-original-mix",
+    "artwork_url": "http://www.residentadvisor.net/dj/lucy",
+    "waveform_url": "https://soundcloud.com/lucy/lucy-201-phasing-original-mix",
+    "stream_url": "https://api.soundcloud.com/tracks/121799870/stream",
+    "download_url": "",
+    "attachments_uri": "Brume"
+
+  },
+
+{
+    "kind": "techno",
+    "id": "119017408",
+    "created_at": "2014/01/2",
+    "permalink": "Francis-Harris-You",
+    "title": "Francis Harris - You Can Always Leave (Curtains) DJ Sprinkles Remix",
+    "description": "",
+    "uri": "https://api.soundcloud.com/tracks/119017408",
+    "permalink_url": "https://soundcloud.com/scissorandthread/francis-harris-you-can-1",
+    "artwork_url": "http://www.residentadvisor.net/dj/djsprinkles",
+    "waveform_url": "https://soundcloud.com/scissorandthread/francis-harris-you-can-1",
+    "stream_url": "https://api.soundcloud.com/tracks/119017408/stream",
+    "download_url": "",
+    "attachments_uri": "Brume"
+
+  },
+
+{
+    "kind": "ambient",
+    "id": "123390838",
+    "created_at": "2014/01/2",
+    "permalink": "Demdike-Stare",
+    "title": "Demdike Stare - Null Results - TESTPRESSING#004",
+    "description": "",
+    "uri": "https://api.soundcloud.com/tracks/123390838",
+    "permalink_url": "https://soundcloud.com/modernlove/null-results",
+    "artwork_url": "http://www.residentadvisor.net/dj/demdikestare",
+    "waveform_url": "https://soundcloud.com/modernlove/null-results",
+    "stream_url": "https://api.soundcloud.com/tracks/123390838/stream",
+"download_url": "",
+    "attachments_uri": "Brume"
+
+  },
+
+{
+    "kind": "drone",
+    "id": "125574715",
+    "created_at": "2014/01/2",
+    "permalink": "Shifted-Black",
+    "title": "Shifted - Black Water Dialect",
+    "description": "",
+    "uri": "https://api.soundcloud.com/tracks/125574715",
+    "permalink_url": "https://soundcloud.com/shifted/shifted-black-water-dialect",
+    "artwork_url": "http://www.residentadvisor.net/dj/shifted",
+    "waveform_url": "https://soundcloud.com/shifted/shifted-black-water-dialect",
+    "stream_url": "https://api.soundcloud.com/tracks/125574715/stream",
+"download_url": "",
+    "attachments_uri": "Brume"
+
+  },
+
+{
+    "kind": "drone",
+    "id": "",
+    "created_at": "2013/12/14",
+    "permalink": "Moomin-Au-Bord",
+    "title": "Moomin - Au Bord De La Mer",
+    "description": "",
+    "uri": "",
+    "permalink_url": "",
+    "artwork_url": "http://www.residentadvisor.net/dj/moomin",
+    "waveform_url": "",
+    "stream_url": "http://edouardalvard.com/Musique/Au-Bord-De-La-Mer.m4a",
+    "download_url": "",
+    "attachments_uri": "Brume"
+  },
+
+{
+    "kind": "track",
+    "id": "",
+    "created_at": "2013/11/4",
+    "permalink": "Donato-Dozzy-&-Neel",
+    "title": "Donato Dozzy & Neel",
+    "description": "https://twitter.com/intent/tweet?hashtags=BrumeFM&original_referer=http%3A%2F%2Freadbru.me%2Fdonatod%2F&text=Have+you+heard+Donato+Dozzy+-+Mix+on+&url=http%3A%2F%2Freadbru.me%2Fdonatod%2F",
+    "uri": "",
+    "permalink_url": "",
+    "artwork_url": "http://www.residentadvisor.net/dj/donatodozzy",
+    "waveform_url": "",
+    "stream_url": "http://edouardalvard.com/Musique/Voices-from-the-Lake%20(Continuous-Mix).m4a",
+"download_url": "",
+    "attachments_uri": "Brume"
+
+  },
+
+{
+    "kind": "track",
+    "id": "",
+    "created_at": "2013/10/31",
+    "permalink": "Arc",
+    "title": "Lakker - Arc",
+    "description": "",
+    "uri": "",
+    "permalink_url": "",
+    "artwork_url": "http://www.residentadvisor.net/dj/lakker",
+    "waveform_url": "",
+    "stream_url": "http://edouardalvard.com/Musique/Arc.m4a",
+    "download_url": "",
+    "attachments_uri": "Brume"
+  },
+
+
+{
+    "kind": "track",
+    "id": "",
+    "created_at": "2013/09/26",
+    "permalink": "Song-With-Blue-(Original-Mix)",
+    "title": "Roman Flügel - Song With Blue (Original Mix)",
+    "description": "",
+    "uri": "",
+    "permalink_url": "",
+    "artwork_url": "http://www.residentadvisor.net/dj/romanflugel",
+    "waveform_url": "",
+    "stream_url": "http://edouardalvard.com/Musique/Song-With-Blue-(Original-Mix).m4a",
+    "download_url": "",
+    "attachments_uri": "Brume"
+  },
+
+{
+    "kind": "track",
+    "id": "112224668",
+    "created_at": "2013/09/24",
+    "permalink": "Temple",
+    "title": "Valentin Stip - Temple",
+    "description": "",
+    "uri": "http://api.soundcloud.com/tracks/112224668",
+    "permalink_url": "https://soundcloud.com/valentinstip/temple",
+    "artwork_url": "http://www.residentadvisor.net/dj/valentinstip",
+    "waveform_url": "https://soundcloud.com/valentinstip/temple",
+    "stream_url": "http://api.soundcloud.com/tracks/112224668/stream",
+    "download_url": "",
+    "attachments_uri": "Brume"
+  },
+
+{
+    "kind": "track",
+    "id": "",
+    "created_at": "2013/09/22",
+    "permalink": "Cleric",
+    "title": "Recondite - Cleric",
+    "description": "",
+    "uri": "",
+    "permalink_url": "",
+    "artwork_url": "http://www.residentadvisor.net/dj/recondite",
+    "waveform_url": "",
+    "stream_url": "http://edouardalvard.com/Musique/Cleric.m4a",
+    "download_url": "",
+    "attachments_uri": "Brume"
+  },
+
+{
+    "kind": "track",
+    "id": "",
+    "created_at": "2013/09/22",
+    "permalink": "Some-Solace",
+    "title": "Steven Tang - Some Solace",
+    "description": "",
+    "uri": "",
+    "permalink_url": "",
+    "artwork_url": "http://www.residentadvisor.net/dj/steventang",
+    "waveform_url": "",
+    "stream_url": "http://edouardalvard.com/Musique/Some-Solace.m4a",
+    "download_url": "",
+    "attachments_uri": "Brume"
+  },
+
+
+{
+    "kind": "track",
+    "id": 110699381,
+    "created_at": "2013/09/16",
+    "permalink": "Come-home-Ben-Lukas-Boysen-Rework",
+    "title": "Hecq - Come Home (Ben Lukas Boysen Rework)",
+    "description": "",
+    "uri": "http://api.soundcloud.com/tracks/110699381",
+    "permalink_url": "https://soundcloud.com/benlukasboysen/hecq-come-home-ben-lukas",
+    "artwork_url": "",
+    "waveform_url": "https://soundcloud.com/benlukasboysen/hecq-come-home-ben-lukas",
+    "stream_url": "http://api.soundcloud.com/tracks/110699381/stream",
+    "download_url": "",
+    "attachments_uri": "Brume"
+  },
+
+
+{
+    "kind": "drone",
+    "id": "",
+    "created_at": "2013/09/21",
+    "permalink": "Manor",
+    "title": "Recondite - Manor",
+    "description": "",
+    "uri": "",
+    "permalink_url": "",
+    "artwork_url": "http://www.residentadvisor.net/dj/recondite",
+    "waveform_url": "",
+    "stream_url": "http://edouardalvard.com/Musique/Manor.m4a",
+    "download_url": "",
+    "attachments_uri": "Brume"
+  },
+
+
+{
+    "kind": "house",
+    "id": 95229768,
+    "created_at": "2013/09/2",
+    "permalink": "Back-On-The-Boulevard",
+    "title": "Purple Velvet & Lisa D - Back On The Boulevard",
+    "description": "",
+    "uri": "http://api.soundcloud.com/tracks/95229768",
+    "permalink_url": "https://soundcloud.com/purple-velvet/back-on-the-boulevard",
+    "artwork_url": "",
+    "waveform_url": "https://soundcloud.com/purple-velvet/back-on-the-boulevard",
+    "stream_url": "http://api.soundcloud.com/tracks/95229768/stream",
+    "download_url": "",
+    "attachments_uri": "Brume"
+  },
+
+
+{
+    "kind": "drone",
+    "id": 91109746,
+    "created_at": "2013/09/1",
+    "permalink": "Astral-Projection",
+    "title": "Ocoeur - Astral Projection",
+    "description": "",
+    "uri": "http://api.soundcloud.com/tracks/91109746",
+    "permalink_url": "https://soundcloud.com/n5md/ocoeur-astral-projection",
+    "artwork_url": "",
+    "waveform_url": "https://soundcloud.com/n5md/ocoeur-astral-projection",
+    "stream_url": "http://api.soundcloud.com/tracks/91109746/stream",
+    "download_url": "",
+    "attachments_uri": "Brume"
+  },
+
+
+{
+    "kind": "track",
+    "id": 56318165,
+    "created_at": "2013/08/28",
+    "permalink": "A-Our-Dream-Of",
+    "title": "Roaming - A Our Dream Of...",
+    "description": "",
+    "uri": "http://api.soundcloud.com/tracks/56318165",
+    "permalink_url": "https://soundcloud.com/roaming/roaming-a-our-dream-of",
+    "artwork_url": "http://www.residentadvisor.net/dj/roaming",
+    "waveform_url": "https://soundcloud.com/roaming/roaming-a-our-dream-of",
+    "stream_url": "http://api.soundcloud.com/tracks/56318165/stream",
+    "download_url": "",
+    "attachments_uri": "Brume"
+  },
+
+{
+    "kind": "house",
+    "id": 107320915,
+    "created_at": "2013/08/26",
+    "permalink": "All-Silver",
+    "title": "Pále - All Silver",
+    "description": "",
+    "uri": "http://api.soundcloud.com/tracks/107320915",
+    "permalink_url": "https://soundcloud.com/thisispale/all-silver",
+    "artwork_url": "",
+    "waveform_url": "https://soundcloud.com/thisispale/all-silver",
+    "stream_url": "http://api.soundcloud.com/tracks/107320915/stream",
+    "download_url": "https://www.facebook.com/thisispale/app_220150904689418",
+    "attachments_uri": "Brume"
+  },
+
+{
+    "kind": "track",
+    "id": 106369439,
+    "created_at": "2013/08/24",
+    "permalink": "Abscondence",
+    "title": "Recondite - Abscondence",
+    "description": "",
+    "uri": "http://api.soundcloud.com/tracks/106369439",
+    "permalink_url": "https://soundcloud.com/ghostly/recondite-abscondence",
+    "artwork_url": "http://www.residentadvisor.net/dj/recondite",
+    "waveform_url": "https://soundcloud.com/ghostly/recondite-abscondence",
+    "stream_url": "http://api.soundcloud.com/tracks/106369439/stream",
+    "download_url": "",
+    "attachments_uri": "Brume"
+  }
+
+]

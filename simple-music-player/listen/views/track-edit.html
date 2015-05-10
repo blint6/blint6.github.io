@@ -1,0 +1,99 @@
+<div class="scroll-area">
+    <div class="maxwi3 wrap pt1 pr1 pl1">
+        <form role="form" data-ng-submit="submit()">
+            <div class="form-group">
+                <label class="col-md-3 control-label">Kind</label>
+                <div class="col-md-8">
+                    <select class="form-control" data-ng-model="track.kind" placeholder="Kind" ng-options="kind.slug as kind.title for kind in kinds" ng-required></select>
+                </div>
+                <div class="col-md-1">
+                    <a ui-sref="listen.kind-create">New</a>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-3 control-label" title="Paste here for auto-fill"><i><u>SoundCloud URL &gt;&gt;&gt;</u></i></label>
+                <div class="col-md-9">
+                    <input type="url" class="form-control" data-ng-model="track.soundcloudLink" placeholder="SoundCloud Page">
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <hr/>
+
+            <div class="form-group">
+                <label class="col-md-3 control-label">Title</label>
+                <div class="col-md-9">
+                    <input type="text" class="form-control" data-ng-model="track.title" placeholder="Title" required>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-3 control-label">Artist</label>
+                <div class="col-md-9">
+                    <input type="text" class="form-control" data-ng-model="track.artist" placeholder="Artist" required>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <!--<div class="form-group">-->
+                <!--<label class="col-md-3 control-label">Artwork</label>-->
+                <!--<div class="col-md-9">-->
+                    <!--<input type="file" class="form-control" data-file-model="files.artwork">-->
+                <!--</div>-->
+                <!--<div class="clear"></div>-->
+            <!--</div>-->
+            <!--<div class="form-group">-->
+                <!--<label class="col-md-3 control-label">Sound track</label>-->
+                <!--<div class="col-md-9">-->
+                    <!--<input type="file" class="form-control" file-model="files.track">-->
+                <!--</div>-->
+                <!--<div class="clear"></div>-->
+            <!--</div>-->
+            <!--<div class="form-group">-->
+                <!--<label class="col-md-3 control-label">Stream URL</label>-->
+                <!--<div class="col-md-9">-->
+                    <!--<input type="url" class="form-control" data-ng-model="track.streamUrl" placeholder="Stream URL">-->
+                <!--</div>-->
+                <!--<div class="clear"></div>-->
+            <!--</div>-->
+            <div class="form-group">
+                <label class="col-md-3 control-label">Twitter</label>
+                <div class="col-md-9">
+                    <input type="url" class="form-control" data-ng-model="track.twitter" placeholder="Twitter">
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-3 control-label">Facebook</label>
+                <div class="col-md-9">
+                    <input type="url" class="form-control" data-ng-model="track.facebook" placeholder="Facebook">
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-3 control-label">Website</label>
+                <div class="col-md-9">
+                    <input type="url" class="form-control" data-ng-model="track.website" placeholder="Website">
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-3 control-label">Upload date</label>
+                <div class="col-md-9">
+                    <input type="date" class="form-control" data-ng-model="track.date" required>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-8 col-md-2">
+                    <button type="submit" class="btn btn-info">Submit</button>
+                </div>
+                <div class="col-md-2">
+                    <button type="button" class="btn btn-danger" ng-click="delete()" ng-show="!newTrack">Delete</button>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </form>
+    </div>
+</div>

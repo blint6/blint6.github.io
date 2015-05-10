@@ -1,0 +1,13 @@
+<div id="scroll_tracks" class="scroll-area" when-scrolled="loadNextTracks()">
+    <div class="maxwi3 wrap pr1 pl1">
+        <a class="listen-track-edit" ui-sref="listen.track-create" ng-show="global.hasRole('track.edit')">New track</a>
+        <ul class="list-style-none">
+            <li class="pt1 borbo bor-ltgry">
+                <input type="text" placeholder="Search" class="input wi100 borbox bor-ltgry" ng-model="query" />
+            </li>
+            <li ng-repeat="track in (filteredTracks | filter:query)" class="posrel borbo bor-ltgry" ng-cloak>
+                <mp-track track-list="filteredTracks" track="track" query="{{query}}" />
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+<span id="{{track.linkId}}" class="offset-link"></span>
+<div class="posrel db pt-5 pb-5" ng-class="{'dkgry': player.playing.id != track.id && player.paused.id != track.id}">
+    <a class="listen-track-edit" ui-sref="listen.track-edit({track: track._id})" ng-show="global.hasRole('track.edit')">Edit</a>
+    <p class="small mdgry">{{track.date | dateSimple}}</p>
+    <h2 class="p reg truncate pr1"><a ui-sref="listen.kind_track({kind: track.kind.slug, track: track.trackId, query: query})" ng-click="clickTrack(track)">{{track.title}} - {{track.artist}}</a></h2>
+    <div>
+        <a class="trackicon icon1" title="Soundcloud page" ng-href="{{track.soundcloudLink}}" target="_blank" class="posabs top0 right0 bottom0 db lh3 pt-5 pr1 pb-5 pl1 mdgry" ng-show="track.soundcloudLink">D</a>
+        <a class="trackicon icon1" title="Website" ng-href="{{track.website}}" target="_blank" ng-show="track.website">P</a>
+        <a class="trackicon icon1" title="Follow me on twitter!" ng-href="{{track.twitter}}" target="_blank" ng-show="track.twitter">P</a>
+        <a class="trackicon icon1" title="Facebook page" title="" ng-href="{{track.facebook}}" target="_blank" ng-show="track.facebook">P</a>
+        <a class="trackicon icon1" title="Link to this track" ng-href="{{track.linkId}}">P</a>
+    </div>
+    <a class="taille" ng-show="track.author">Ecrit par {{track.author}}</a>
+</div>

@@ -1,0 +1,12 @@
+<section ng-switch="global.authenticated">
+    <div ng-switch-when="true">
+        <a class="showLogin" href="logout"><span class="glyphicon glyphicon-remove-circle"></span>&nbsp;Sign out</a>
+        <span ng-show="hasAdminFeatures()">
+            &mdash;
+            <a ui-sref="admin.menu">Admin</a>
+        </span>
+    </div>
+    <div ng-switch-default>
+        <a ui-sref="auth.login" class="showLogin"><span class="glyphicon glyphicon-arrow-right"></span>&nbsp;Login</a>
+    </div>
+</section>

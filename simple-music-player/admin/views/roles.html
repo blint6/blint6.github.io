@@ -1,0 +1,30 @@
+<div data-ng-controller="RolesCtrl">
+    <div ng-repeat="error in registerError">
+        <div class="alert alert-danger animated fadeIn">{{error.msg}}</div>
+    </div>
+    <div class="alert alert-danger animated fadeIn" ng-show="usernameError">{{usernameError}}</div>
+
+    <h2>Change roles</h2>
+
+    <form ng-submit="findRolesByUser()" class="form-horizontal">
+        <div class="form-group">
+            <label for="username" class="col-md-3 control-label">User Name</label>
+            <div class="col-md-7">
+                <input id="username" type="text" name="username" placeholder="Username" class="form-control" ng-model="username" />
+            </div>
+            <div class="col-md-1">
+                <button type="submit" class="btn btn-primary">Find</button>
+            </div>
+        </div>
+    </form>
+
+    <form class="form-horizontal" ng-show="userEdit">
+        <h3>{{userEdit.name}}</h3>
+        <div class="form-group" ng-repeat="(role, roleName) in roleNames">
+            <label for="{{role}}" class="col-md-5 control-label">{{roleName}}</label>
+            <div class="col-md-1">
+                <input id="{{role}}" type="checkbox" name="{{role}}" class="form-control" ng-model="roles[role]" ng-change="changeRole(role)" />
+            </div>
+        </div>
+    </form>
+</div>
